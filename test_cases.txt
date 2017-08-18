@@ -1,0 +1,47 @@
+#Format:
+#input
+#    output1
+#    output2
+#    output3
+# Note: each output MUST be indented exactly 4 chars!
+
+hello{, world}
+    hello
+    hello world
+hejsan
+    hejsan
+hejsan{}
+    hejsan
+{}hejsan
+    hejsan
+{,}hejsan
+    hejsan
+    hejsan
+{,,}hejsan
+    hejsan
+    hejsan
+    hejsan
+a{b}c
+    abc
+a{b,}c
+    abc
+    ac
+f{s,d}e
+    fse
+    fde
+a{{c
+    a{{c
+{}.
+    .
+.{}.
+    ..
+from_{x,y}_to_{a,b}
+    from_x_to_a
+    from_x_to_b
+    from_y_to_a
+    from_y_to_b
+{b,c}!{d,e}
+    b!d
+    b!e
+    c!d
+    c!e
