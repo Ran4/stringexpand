@@ -1,10 +1,7 @@
 from typing import List, Generator
 import unittest
 
-from stringexpand import (
-    expand,
-    string_contains_set_of_braces,
-)
+from stringexpand import expand, string_contains_set_of_braces
 
 def _parse_test_cases(lines: List[str]) -> Generator:
     INDENT = 4

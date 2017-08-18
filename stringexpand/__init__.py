@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+__all__ = ["expand"]
+
 from typing import List, Tuple
 from functools import wraps
 
